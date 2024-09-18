@@ -1,0 +1,147 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.container2 {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.container3 {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+footer {
+    margin: 60px 0 0 0;
+    background-color: #210d4a;
+    padding: 150px 100px;
+}
+
+.footer-Content {
+    padding: 0 0 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-Content-Services-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-Content-Academy-Logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.footer-Content-Academy-Logo img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-Content-Academy-Logo h2 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-Content-Academy-Pera p {
+    font-size: 15px;
+    color: #fff;
+    max-width: 285px;
+    padding: 5px 0 10px 0;
+}
+
+.footer-Content-Services-Head h2 {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 30px 0;
+}
+
+.footer-Content-Services-Ancer {
+    display: block;
+}
+
+.footer-Content-Services-Ancer a {
+    font-size: 14px;
+    color: #ffffffa4;
+    text-decoration-line: none;
+    display: block;
+    margin: 15px 0;
+}
+
+.telephone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 0 10px 0;
+}
+
+.telephone h2 {
+    font-size: 14px;
+    color: #ffffffa4;
+    font-weight: 400;
+}
+
+.telephone img {
+    height: 12px;
+    width: 18px;
+}
+
+.Social-Media {
+    display: flex;
+    gap: 10px;
+    margin-top: 38px;
+}
+
+.Social-Media-img {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Social-Media-img img {
+    max-height: 15px;
+    max-width: 15px;
+}
+
+@media (max-width:576px) {
+
+    footer {
+        margin: 60px 0 0 0;
+        background-color: #210d4a;
+        padding: 150px 30px;
+    }
+
+    .footer-Content {
+        padding: 0;
+        display: block;
+    }
+
+    .footer-Content-Services-Grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 0 0 0;
+        gap: 20px 0;
+    }
+}

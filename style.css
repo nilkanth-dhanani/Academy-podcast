@@ -1,0 +1,1306 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.container2 {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.Inpatiant {
+    padding: 80px 0;
+    background-color: #edf5ff;
+}
+
+.Inpatiant-Sub-Div {
+    padding: 0 100px;
+}
+
+
+.Inpatiant-Sub-Div-Details {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Inpatiant-Sub-Div-Details h1 {
+    font-size: 65px;
+    color: #210d4a;
+    max-width: 750px;
+    text-align: center;
+}
+
+.Inpatiant-Sub-Div-Details p {
+    font-size: 20px;
+    color: #210d4a;
+    max-width: 600px;
+    text-align: center;
+    margin: 30px 0 16px 0;
+}
+
+.Inpatiant-Sub-Div-Button {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0 0 0;
+}
+
+.Inpatiant-Sub-Div-Button1 {
+    padding: 8px 100px;
+    background-color: #3e83ff;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+}
+
+.Inpatiant-Sub-Div-Button2 {
+    padding: 8px 100px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #3e83ff;
+    border: 1px solid #3e83ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    font-weight: 600;
+}
+
+.Inpatiant-Sub-Div-Details-Img {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 40px 0 0 0;
+    align-items: center;
+}
+
+.Inpatiant-Sub-Div-Details-Img img {
+    height: 30px;
+    width: 30px;
+}
+
+.Inpatiant-Sub-Div-Details-Img p {
+    font-size: 16px;
+    padding: 0 0 0 10px;
+    color: #210d4a;
+    text-decoration-line: underline;
+}
+
+.Page-Contant {
+    padding: 0 100px;
+    margin: -40px 0 0 0;
+}
+
+.Page-Contant-Display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Page-Contant-Display-Grid {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #0000000d;
+}
+
+.Page-Contant-Display-Grid h5 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: #210d4a;
+}
+
+.Page-Contant-Display-Grid p {
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    color: #210d4a99;
+}
+
+.Page-Contant-Display-Grid button {
+    font-size: 16px;
+    color: #3e83ff;
+    border: none;
+    background-color: #ffffff00;
+}
+
+.Trust-Reviews {
+    padding: 140px 0 100px 0;
+}
+
+.Trust-Reviews-Display {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Trust-Reviews-Details h6 {
+    font-size: 16px;
+    color: #3e83ff;
+    font-weight: 400;
+}
+
+.Trust-Reviews-Details h1 {
+    font-size: 40px;
+    color: #210d4a;
+    margin-top: 30px;
+}
+
+.Trust-Reviews-Details p {
+    font-size: 17px;
+    color: #8a96ba;
+    margin-top: 30px;
+}
+
+.Trust-Reviews-Img {
+    padding: 80px 100px 0 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.images img {
+    border-radius: 10px;
+}
+
+.Academy-Wrapp {
+    padding: 0 0 300px 0;
+    background-color: #f8fbff;
+}
+
+.Academy-Wrapp-Main {
+    padding: 117px 100px 0 100px;
+    display: flex;
+}
+
+.Academy-Wrapp-Main-Div1 {
+    padding: 0 15px 0 130px;
+}
+
+.Academy-Wrapp-Main-Div1 p {
+    color: #3e83ff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Academy-Wrapp-Main-Div1 p sup {
+    color: #3e83ff;
+    font-size: 10px;
+}
+
+.Academy-Wrapp-Main-Div1 h2 {
+    color: #210d4a;
+    font-size: 50px;
+    margin-top: 30px;
+    min-width: 426px;
+}
+
+.Academy-Wrapp-Main-Div1 h3 {
+    color: #3e83ff;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+}
+
+.Academy-Wrapp-Main-Div1 h3 sup {
+    color: #3e83ff;
+    font-size: 25px;
+}
+
+.Academy-Wrapp-Main-Div1 span {
+    color: #8a96ba;
+    font-size: 18px;
+}
+
+.Academy-Wrapp-Main-Div2 {
+    padding: 0 15px 0 130px;
+}
+
+.Academy-Wrapp-Main-Div2 p {
+    color: #0d0e13;
+    font-size: 17px;
+    margin: 51px 0 50px 0;
+    max-width: 540px;
+}
+
+.Academy-Wrapp-Main-Div2 button {
+    padding: 8px 15px;
+    background-color: #3e83ff;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+}
+
+.Academy-Wrapp-Main-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 100px;
+    margin-top: -200px;
+}
+
+.Academy-Wrapp-Main-Grid-Last {
+    padding: 28px 24px 24px 24px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #0000000d;
+}
+
+.Media-Img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.Academy-Wrapp-Main-Grid-Last img {
+    height: 204px;
+}
+
+.Media-Img img {
+    height: 24px;
+    width: 22px;
+}
+
+.Episode-Pera {
+    padding: 15px 0 0 0;
+}
+
+.Episode-Pera-Holistic p {
+    font-size: 18px;
+    color: #210d4a;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.Episode-Pera-Date {
+    display: flex;
+    margin-bottom: 24px;
+    align-items: center;
+    gap: 5px;
+}
+
+.Episode-Pera-Date span {
+    font-size: 14px;
+    color: #8a96ba;
+}
+
+.Episode-Pera-Date ul {
+    margin: 0;
+    padding: 0 0 0 22px;
+    font-size: 14px;
+    color: #8a96ba;
+}
+
+.All-Videos {
+    padding: 50px 0 0 0;
+}
+
+.All-Videos span {
+    font-size: 16px;
+    color: #3e83ff;
+    font-weight: 400;
+}
+
+.section {
+    margin: 140px 0 0 0;
+    padding: 140px 0 0 0;
+}
+
+.Youtube-Video {
+    padding: 0 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Youtube-Video-Medical1 {
+    padding: 0 100px 0 0;
+}
+
+.Youtube-Video-Medical1 span {
+    color: #3e83ff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Youtube-Video-Medical1 h1 {
+    color: #210d4a;
+    font-size: 40px;
+    margin: 25px 0 0 0;
+}
+
+.Youtube-Video-Medical1 p {
+    color: #210d4a;
+    font-size: 17px;
+    margin: 40px 0;
+}
+
+.Youtube-Video-Medical1 p small {
+    color: #3e83ff;
+    font-size: 17px;
+    margin: 40px 0;
+}
+
+.Youtube-Video-Medical1 button {
+    padding: 15px 20px;
+    background-color: #3e83ff;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    min-width: 210px;
+    font-weight: 400;
+}
+
+.Youtube-Video-Medical2 {
+    display: flex;
+    align-items: center;
+}
+
+.Explained-Video {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.Explained-Video h5 {
+    color: #8a96ba;
+    font-size: 16px;
+}
+
+.Subscribe {
+    margin: 0 100px;
+    padding: 66px 105px;
+    background-color: #f8fbff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 125px;
+}
+
+.Subscribe-Now h1 {
+    font-size: 32px;
+    margin: 0 0 8px 0;
+    color: #212529;
+}
+
+.Subscribe-Now p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #210d4a;
+}
+
+.Subscribe-Now-Input {
+    padding: 0 0 10px 0;
+}
+
+.Subscribe-Now-Input input {
+    min-width: 480px;
+    padding: 16px 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.Subscribe-Now-Input button {
+    padding: 15px 20px;
+    background-color: #3e83ff;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    min-width: 514px;
+    font-weight: 400;
+}
+
+.Vip-Img {
+    padding: 0 100px;
+    margin-top: 104px;
+}
+
+.Academy-Vip {
+    position: relative;
+}
+
+.Academy-Vip-img img {
+    max-height: 530px;
+    border-radius: 10px;
+}
+
+.Academy-Vip-img-bg {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000a1;
+    border-radius: 10px;
+}
+
+.Academy-Vip-img-Text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.Academy-Vip-img-Text-Paddiing {
+    padding: 60px;
+}
+
+.Academy-Vip-img-Text-Paddiing-pera p {
+    background-color: rgba(40, 220, 142, .3);
+    color: #68f6b9;
+    max-width: 309px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Academy-Vip-img-Text-Paddiing-pera h1 {
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 16px 0 20px 0;
+    color: #fff;
+}
+
+.Academy-Vip-img-Text-Paddiing-head {
+    padding: 85px 0 0 0;
+    margin: 90px 0 0 0;
+}
+
+.Academy-Vip-img-Text-Paddiing-head p {
+    margin: 10px 0 16px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.Academy-Vip-img-Text-Paddiing-subpera {
+    display: flex;
+    gap: 10px;
+}
+
+.Academy-Vip-img-Text-Paddiing-subpera p {
+    background-color: #fce4e480;
+    color: #fff;
+    max-width: 309px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.Academy-Vip-img-Text-Paddiing-button {
+    padding: 8px 16px;
+    background-color: #3e83ff;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    margin: 16px 0 0 0;
+}
+
+.login-section {
+    padding: 115px 0 116px 0;
+    background-color: #fbfbfb;
+}
+
+.Login-Page {
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    gap: 50px;
+}
+
+.Login-Page-Div1 {
+    padding: 0 15px;
+    margin: 0 0 0 115px;
+}
+
+.Login-Page-Div2 {
+    padding: 0 15px;
+    position: relative;
+}
+
+.Login-Page-Div1 h1 {
+    font-size: 50px;
+    color: #210d4a;
+    margin-bottom: 25px;
+}
+
+.Login-Page-Div1-Email label {
+    display: block;
+    font-size: 16px;
+    color: #210d4a;
+    margin: 0 0 4px 0;
+}
+
+.Login-Page-Div1-Email input {
+    min-width: 370px;
+    padding: 15px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Login-Page-Div1-Password label {
+    display: block;
+    font-size: 16px;
+    color: #210d4a;
+    margin: 10px 0 4px 0;
+}
+
+.Login-Page-Div1-Password input {
+    min-width: 370px;
+    padding: 15px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Login-Page-Div1-Forgot-Password {
+    margin-bottom: 25px;
+}
+
+.Login-Page-Div1-Forgot-Password a {
+    color: #3e83ff;
+    font-size: 16px;
+    text-decoration-line: none;
+    font-weight: 400;
+}
+
+.Login-Page-Div1-Active {
+    margin-bottom: 40px;
+}
+
+.Login-Page-Div1-Active p {
+    font-size: 16px;
+    color: #212529;
+}
+
+.Login-Page-Div1-Active p a {
+    color: #3e83ff;
+    text-decoration-line: none;
+}
+
+.Login-Page-Div1-Login button {
+    padding: 8px 16px;
+    background-color: #3e83ff;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    min-width: 403px;
+    margin-bottom: 20px;
+}
+
+.Login-Page-Div1-Register {
+    margin-bottom: 40px;
+}
+
+.Login-Page-Div1-Register p {
+    font-size: 16px;
+    color: #0d0e13bf;
+}
+
+.Login-Page-Div1-Register p a {
+    color: #210d4a;
+    font-weight: 600;
+    text-decoration-line: none;
+}
+
+.Login-Page-Div1-Green-Logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Login-Page-Div1-Green-Logo img {
+    width: 36px;
+    height: 27px;
+}
+
+.Login-Page-Div1-Green-Logo p {
+    color: #210d4a;
+    font-size: 16px;
+}
+
+.Login-Page-Div1-Green-Logo2 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Login-Page-Div1-Green-Logo2 img {
+    width: 36px;
+    height: 27px;
+}
+
+.Login-Page-Div1-Green-Logo2 p {
+    color: #007bef;
+    font-size: 16px;
+}
+
+.Login-Page-Div2 img {
+    border-radius: 70px;
+}
+
+.Login-Page-Div2-box {
+    position: absolute;
+    bottom: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 34px 37px;
+    margin-left: -36px;
+}
+
+.Login-Page-Div2-box h1 {
+    color: #210D4A;
+    font-size: 21px;
+    max-width: 440px;
+}
+
+.Login-Page-Div2-box p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #210D4A;
+    font-weight: 400px;
+    max-width: 440px;
+}
+
+
+@media (max-width:1024px) {
+
+    .Inpatiant {
+        padding: 80px 50px 20px 50px;
+    }
+
+    .Inpatiant-Sub-Div-Details h1 {
+        font-size: 70px;
+        padding: 0 20px;
+    }
+
+    .Inpatiant-Sub-Div-Details p {
+        font-size: 18px;
+    }
+
+    .Inpatiant-Sub-Div {
+        padding: 0;
+        text-align: center
+    }
+
+    .Inpatiant-Sub-Div-Details {
+        text-align: center;
+    }
+
+    .Inpatiant-Sub-Div-Button {
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+    }
+
+    .Inpatiant-Sub-Div-Button1 {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 8px 50px;
+    }
+
+    .Inpatiant-Sub-Div-Button2 {
+        width: 100%;
+        padding: 8px 50px;
+    }
+
+    .Inpatiant-Sub-Div-Details-Img {
+        padding: 40px 0 20px 0;
+    }
+
+    .Page-Contant {
+        padding: 0 50px;
+    }
+
+    .Page-Contant-Display {
+        display: block
+    }
+
+    .Trust-Reviews-Details {
+        padding: 0 20px;
+    }
+
+    .Trust-Reviews-Details h1 {
+        font-size: 38px;
+        margin: 24px 0 0 0;
+    }
+
+    .Trust-Reviews-Details p {
+        font-size: 17px;
+        margin: 20px 0 0 0;
+    }
+
+    .Trust-Reviews {
+        padding: 100px 0;
+    }
+
+    .Trust-Reviews-Img {
+        padding: 80px 30px 0 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .Academy-Wrapp {
+        padding: 0 0 300px 0;
+    }
+
+    .Academy-Wrapp-Main {
+        padding: 50px 50px 0 50px;
+        display: block;
+    }
+
+    .Academy-Wrapp-Main-Div1 {
+        padding: 0;
+    }
+
+    .Academy-Wrapp-Main-Div1 p {
+        font-size: 16px;
+    }
+
+    .Academy-Wrapp-Main-Div1 p sup {
+        font-size: 8px;
+    }
+
+    .Academy-Wrapp-Main-Div1 h2 {
+        font-size: 50px;
+        margin-top: 20px;
+        min-width: 200px;
+    }
+
+    .Academy-Wrapp-Main-Div1 h3 {
+        font-size: 36px;
+        margin-bottom: 0;
+        margin-top: -10px;
+    }
+
+    .Academy-Wrapp-Main-Div1 h3 sup {
+        font-size: 18px;
+    }
+
+    .Academy-Wrapp-Main-Div1 span {
+        display: none;
+    }
+
+    .Academy-Wrapp-Main-Div2 {
+        padding: 0;
+    }
+
+    .Academy-Wrapp-Main-Div2 p {
+        font-size: 17px;
+        margin: 20px 0 25px 0;
+        min-width: 100%;
+    }
+
+    .Academy-Wrapp-Main-Div2 button {
+        min-width: 200px;
+    }
+
+    .Academy-Wrapp-Main-Grid {
+        display: block;
+        padding: 0 50px;
+    }
+
+    .All-Videos {
+        padding: 0;
+    }
+
+    .Vip-Img {
+        padding: 0 30px;
+        margin-top: 100px;
+    }
+
+    .Academy-Vip {
+        position: relative;
+    }
+
+    .Academy-Vip-img img {
+        min-height: 530px;
+        border-radius: 10px;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-pera p {
+        width: 100%;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-pera h1 {
+        font-size: 24px;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-head {
+        padding: 90px 0 0 0;
+        margin: 90px 0 0 0;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-head p {
+        font-size: 16px;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-subpera p {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 50px 0 0 0;
+    }
+
+    .Youtube-Video {
+        padding: 0 50px;
+    }
+
+    .Youtube-Video-Medical1 {
+        padding: 0 100px 0 0;
+    }
+
+    .Youtube-Video-Medical1 h1 {
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+
+    .Youtube-Video-Medical1 p {
+        font-size: 17px;
+        margin: 30px 0;
+    }
+
+    .Youtube-Video-Medical1 p small {
+        font-size: 16px;
+    }
+
+    .Youtube-Video-Medical1 button {
+        width: 100%;
+    }
+
+    .Youtube-Video-Medical2 iframe {
+        margin-top: 30px;
+        height: 190px;
+        max-width: 335px;
+    }
+
+    .Explained-Video {
+        padding: 23px 0;
+    }
+
+    .Subscribe {
+        margin: 20px 0 0 0;
+        padding: 20px 90px;
+        display: block;
+    }
+
+    .Subscribe-Now-Input {
+        padding: 0 0 10px 0;
+    }
+
+    .Subscribe-Now-Input input {
+        width: 550px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .Subscribe-Now-Input button {
+        width: 100%;
+    }
+
+    .login-section {
+        padding: 40px 0;
+    }
+
+    .Login-Page {
+        padding: 0 30px;
+        display: block;
+    }
+
+    .Login-Page-Div1 {
+        margin: 0;
+    }
+
+    .Login-Page-Div1 h1 {
+        font-size: 30px;
+    }
+
+    .Login-Page-Div1-Email input {
+        width: 100%;
+    }
+
+    .Login-Page-Div1-Password input {
+        width: 100%;
+    }
+
+    .Login-Page-Div1-Forgot-Password {
+        margin-bottom: 25px;
+    }
+
+    .Login-Page-Div1-Login button {
+        width: 100%;
+    }
+
+    .Login-Page-Div1-Register {
+        margin-bottom: 40px;
+    }
+
+    .Login-Page-Div2 {
+        padding: 30px 0 0 0;
+    }
+
+    .Login-Page-Div2 img {
+        border-radius: 0px;
+    }
+
+    .Login-Page-Div2-box {
+        display: none;
+    }
+
+}
+
+
+@media (max-width:576px) {
+
+    .Inpatiant {
+        padding: 80px 20px 20px 20px;
+    }
+
+    .Inpatiant-Sub-Div-Details h1 {
+        font-size: 52px;
+    }
+
+    .Inpatiant-Sub-Div-Details p {
+        font-size: 17px;
+    }
+
+    .Inpatiant-Sub-Div {
+        padding: 0;
+        text-align: center
+    }
+
+    .Inpatiant-Sub-Div-Details {
+        display: block;
+        text-align: center;
+    }
+
+    .Inpatiant-Sub-Div-Button {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+    }
+
+    .Inpatiant-Sub-Div-Button1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Inpatiant-Sub-Div-Button2 {
+        width: 100%;
+    }
+
+    .Inpatiant-Sub-Div-Details-Img {
+        display: block;
+        padding: 40px 0 0 0px;
+    }
+
+    .Page-Contant {
+        padding: 0;
+    }
+
+    .Page-Contant-Display {
+        display: block
+    }
+
+    .Trust-Reviews-Details {
+        padding: 0 20px;
+    }
+
+    .Trust-Reviews-Details h1 {
+        font-size: 32px;
+        margin: 24px 0 0 0;
+        width: 100%;
+    }
+
+    .Trust-Reviews-Details p {
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+
+    .Trust-Reviews {
+        padding: 100px 0;
+    }
+
+    .Trust-Reviews-Img {
+        padding: 80px 30px 0 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .Academy-Wrapp {
+        padding: 0 0 300px 0;
+    }
+
+    .Academy-Wrapp-Main {
+        padding: 50px 30px 0 30px;
+        display: block;
+    }
+
+    .Academy-Wrapp-Main-Div1 {
+        padding: 0;
+    }
+
+    .Academy-Wrapp-Main-Div1 p {
+        font-size: 14px;
+    }
+
+    .Academy-Wrapp-Main-Div1 p sup {
+        font-size: 8px;
+    }
+
+    .Academy-Wrapp-Main-Div1 h2 {
+        font-size: 36px;
+        margin-top: 20px;
+        min-width: 200px;
+    }
+
+    .Academy-Wrapp-Main-Div1 h3 {
+        font-size: 36px;
+        margin-bottom: 0;
+        margin-top: -10px;
+    }
+
+    .Academy-Wrapp-Main-Div1 h3 sup {
+        font-size: 18px;
+    }
+
+    .Academy-Wrapp-Main-Div1 span {
+        display: none;
+    }
+
+    .Academy-Wrapp-Main-Div2 {
+        padding: 0;
+    }
+
+    .Academy-Wrapp-Main-Div2 p {
+        font-size: 15px;
+        margin: 20px 0 25px 0;
+        min-width: 100%;
+    }
+
+    .Academy-Wrapp-Main-Div2 button {
+        min-width: 200px;
+    }
+
+    .Academy-Wrapp-Main-Grid {
+        display: block;
+        padding: 0 30px;
+    }
+
+    .All-Videos {
+        padding: 0;
+    }
+
+    .Vip-Img {
+        padding: 0 30px;
+        margin-top: 100px;
+    }
+
+    .Academy-Vip {
+        position: relative;
+    }
+
+    .Academy-Vip-img img {
+        min-height: 530px;
+        border-radius: 10px;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-pera p {
+        width: 100%;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-pera h1 {
+        font-size: 24px;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-head {
+        padding: 50px 0 0 0;
+        margin: 25px 0 0 0;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-head p {
+        font-size: 16px;
+    }
+
+    .Academy-Vip-img-Text-Paddiing-subpera p {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 50px 0 0 0;
+    }
+
+    .Youtube-Video {
+        padding: 0 30px;
+        display: block;
+    }
+
+    .Youtube-Video-Medical1 {
+        padding: 0;
+    }
+
+    .Youtube-Video-Medical1 h1 {
+        font-size: 30px;
+        margin: 20px 0 0 0;
+    }
+
+    .Youtube-Video-Medical1 p {
+        font-size: 16px;
+        margin: 30px 0;
+    }
+
+    .Youtube-Video-Medical1 p small {
+        font-size: 16px;
+    }
+
+    .Youtube-Video-Medical1 button {
+        width: 100%;
+    }
+
+    .Youtube-Video-Medical2 iframe {
+        margin-top: 30px;
+        height: 190px;
+    }
+
+    .Explained-Video {
+        padding: 23px 0;
+    }
+
+    .Subscribe {
+        margin: 20px 0 0 0;
+        padding: 20px 70px;
+        display: block;
+    }
+
+    .Subscribe-Now-Input {
+        padding: 0 0 10px 0;
+    }
+
+    .Subscribe-Now-Input input {
+        min-width: 200px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .Subscribe-Now-Input button {
+        min-width: 200px;
+    }
+
+    .login-section {
+        padding: 40px 0;
+    }
+
+    .Login-Page {
+        padding: 0 30px;
+        display: block;
+    }
+
+    .Login-Page-Div1 {
+        margin: 0;
+    }
+
+    .Login-Page-Div1 h1 {
+        font-size: 30px;
+    }
+
+    .Login-Page-Div1-Email input {
+        width: 100%;
+    }
+
+    .Login-Page-Div1-Password input {
+        width: 100%;
+    }
+
+    .Login-Page-Div1-Forgot-Password {
+        margin-bottom: 25px;
+    }
+
+    .Login-Page-Div1-Login button {
+        width: 100%;
+    }
+
+    .Login-Page-Div1-Register {
+        margin-bottom: 40px;
+    }
+
+    .Login-Page-Div2 {
+        padding: 30px 0 0 0;
+    }
+
+    .Login-Page-Div2 img {
+        border-radius: 0px;
+    }
+
+    .Login-Page-Div2-box {
+        display: none;
+    }
+
+}
